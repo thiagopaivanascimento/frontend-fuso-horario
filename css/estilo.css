@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/06/2016
+    Author     : Thiago
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;;
+    font-size: 12px;
+    background-color: #FFF;
+}
+
+div#corpo-pagina{
+   width: 30%;
+   height: 30%;
+   margin-left: 500px;
+   margin-top: 200px;
+   border: 1px solid #23458b;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   text-align: center;
+   padding: 5px;
+   background-color: #FFF;
+   
+}
+
+div#time{
+    color: #000;
+    font-weight: bold; 
+}
+
+select{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;;
+    font-size: 13px;
+    padding: 3px;
+}
+
+#enviar{
+    width: 100px;
+    height: 25px;
+    color: #FFF;
+    background-color: #23458b;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    cursor: pointer;
+}
+
+div#resultado{
+    padding: 2px;
+    color:red;
+    font-size: 14px;
+    
+}
